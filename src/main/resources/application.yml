@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+    datasourse:
+      driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.47.128:3306/SRMS_system?useUnicode=true&amp;characterEncoding=UTF-8?autoReconnect=true
+        username: root
+        password: root
+    jpa:
+      database: mysql
+      #    hibernate:
+      #      ddl-auto: update
+      show-sql: true
