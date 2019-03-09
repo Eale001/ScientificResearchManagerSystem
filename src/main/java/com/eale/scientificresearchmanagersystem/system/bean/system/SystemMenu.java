@@ -17,7 +17,7 @@ public class SystemMenu {
     private Long menuId; // 菜单id
 
     @Column(name = "parent_id")
-    private Long parentId=0L; // 父id
+    private Long parentId; // 父id
 
     @Column(name = "menu_name")
     @NotEmpty(message="菜单名字不能为空")
@@ -37,7 +37,7 @@ public class SystemMenu {
     private Boolean show=false; // 菜单是否显示
 
     @Column(name = "menu_grade")
-    private Integer menuGrade; // 权限值分数
+    private Integer menuGrade; // 菜单等级
 
     @Column(name = "create_userid")
     private Long createUserid;//创建人
