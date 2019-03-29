@@ -17,7 +17,7 @@ public class ThesisGrade {
     @Column(name="tg_id")
     private Long tgId;//论文级别ID
 
-    @Column(name = "tg_gradde")
+    @Column(name = "tg_grade")
     private String tgGrade;//论文等级
 
     @Column(name = "tg_affectoi")
