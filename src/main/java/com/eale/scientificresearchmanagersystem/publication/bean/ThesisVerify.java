@@ -16,7 +16,7 @@ public class ThesisVerify {
 
     @OneToOne
     @JoinColumn(name = "thesis_id")
-    private Thesis thesisId;//论文ID
+    private Thesis thesis;//论文ID
 
     @Column(name = "tv_verify")
     private Integer tvVerify;//审核状态

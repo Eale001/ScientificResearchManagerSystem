@@ -10,10 +10,10 @@ import javax.persistence.*;
 @Table(name = "srms_publication_thesisverify")
 public class PatentVerify {
 
-@Id
-@GeneratedValue(strategy= GenerationType.IDENTITY)
-@Column(name="pt_id")
-private Long ptId;//专利审核ID
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "pt_id")
+    private Long ptId;//专利审核ID
 
     @OneToOne
     @JoinColumn(name = "patent_id")
